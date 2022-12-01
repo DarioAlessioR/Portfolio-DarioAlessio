@@ -159,6 +159,13 @@ button:focus {
   width: 2.5em !important;
 }
 
+.brand-name {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #be50f4 !important;
+  padding-top: 16px !important;
+}
+
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
