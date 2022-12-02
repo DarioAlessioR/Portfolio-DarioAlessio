@@ -23,7 +23,7 @@ $ code .
 At the command line, run `npm start` to run the app.
 
 ## Live demo
-Please visit the app page in Heroku: https://limitless-tor-75096.herokuapp.com/
+Please visit the app page in Netlify:
 
 
 ## Author
