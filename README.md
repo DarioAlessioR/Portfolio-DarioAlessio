@@ -3,8 +3,11 @@
 ## Built With
 
 - React
+
 - HTML
+
 - CSS
+
 - Tailwind
 
 - Git & Github
