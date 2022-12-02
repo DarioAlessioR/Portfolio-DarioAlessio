@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import bookstore from "../../Assets/Projects/bookstore.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import space from "../../Assets/Projects/space.png";
 import homesharing from "../../Assets/Projects/homesharing.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import math from "../../Assets/Projects/math.png";
 import apod from "../../Assets/Projects/apod.png";
 
 function Projects() {
@@ -82,23 +82,34 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bookstore}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Bookstore CMS"
+              description="The Bookstore CMS app is a website that allows you to:
+
+              Display a list of books, add a book, and remove a selected book.
+
+              It consumes an api service to store the users's books information.
+              
+              Built with React and Redux as an individual academic project."
+              ghLink="https://github.com/DarioAlessioR/bookstore1/tree/dev"
+              demoLink="https://effervescent-dodol-706742.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={math}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Math Magicians"
+              description="'Math magicians' is a website for all fans of mathematics.
+               It allows users to
+               do simple arithmetics calculations. There's also a section to read a nice quote
+               from Galileo Galilei.
+               It is a Single Page App (SPA)
+                Built with React as an individual academic project."
+              ghLink="https://github.com/DarioAlessioR/math-magic"
+              demoLink="https://benevolent-tanuki-9d1893.netlify.app/Calculator"
             />
           </Col>
 
