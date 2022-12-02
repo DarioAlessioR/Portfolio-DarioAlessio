@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bookstore from "../../Assets/Projects/bookstore.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import gastronomy from "../../Assets/Projects/gastronomy.png";
 import space from "../../Assets/Projects/space.png";
 import homesharing from "../../Assets/Projects/homesharing.png";
 import math from "../../Assets/Projects/math.png";
@@ -18,7 +18,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -115,13 +115,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={gastronomy}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="House Speciality"
+              description="House Speciality is a web application based on an external API
+               that provides data about food. 
+               Users can comment and give likes to different dishes. These interactions are
+               saved in an external API. The app was built with JavaScript as an
+                 individual academic project."
+              ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
+              demoLink="https://maury18.github.io/JavaScript-Capstone/dist/"
             />
           </Col>
         </Row>
