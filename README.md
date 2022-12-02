@@ -23,7 +23,7 @@ $ code .
 At the command line, run `npm start` to run the app.
 
 ## Live demo
-Please visit the app page in Netlify:
+Please visit the app page in Netlify: https://dario-alessio.netlify.app/
 
 
 ## Author
