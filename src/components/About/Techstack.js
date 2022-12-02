@@ -10,11 +10,11 @@ import {
   DiDatabase,
   DiPostgresql,
 } from "react-icons/di";
-import {
-  SiAdobeillustrator,
-  SiAdobephotoshop,
-  SiAdobeaftereffects,
-} from "react-icons/si";
+//import {
+//  SiAdobeillustrator,
+//  SiAdobephotoshop,
+//  SiAdobeaftereffects,
+//} from "react-icons/si";
 
 function Techstack() {
   return (
