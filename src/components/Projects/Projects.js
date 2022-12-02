@@ -65,7 +65,7 @@ function Projects() {
               description="The Space Travelers' Hub consists of Rockets, Missions, and the My
                Profile section.
 
-              It let users to book fictional rockets trips and space missions.
+              It let users book fictional rockets trips and space missions.
               The Rockets section displays a list of all available SpaceX rockets. 
               
               
@@ -85,9 +85,9 @@ function Projects() {
               imgPath={bookstore}
               isBlog={false}
               title="Bookstore CMS"
-              description="The Bookstore CMS app is a website that allows you to:
+              description="The Bookstore CMS app is a website that allows you to
 
-              Display a list of books, add a book, and remove a selected book.
+              display a list of books, add a book, and remove a selected book.
 
               It consumes an api service to store the users's books information.
               
