@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import space from "../../Assets/Projects/space.png";
+import homesharing from "../../Assets/Projects/homesharing.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import apod from "../../Assets/Projects/apod.png";
 
 function Projects() {
   return (
@@ -23,34 +23,60 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={homesharing}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Home Sharing App"
+              description="The Home Sharing App is a fully responsive app that provides the service
+               for connecting homeowners wanting to rent their properties and potential clients,
+                enabling the creation of reservations for periods of time on selected properties.
+              
+              The app was built with a Ruby on Rails backend and a React/Redux frontend,
+               located on separate repositories.
+               
+               This is an academic project built by a team of 4 students."
+              ghLink="https://github.com/Home-Sharing-Team/final-capstone-Project-Back-End/tree/readme"
+              demoLink="https://home-sharing.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={apod}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Astronomical Picture of the Day"
+              description="The Astronomical Picture of the Day (APOD) app shows a collection
+               of the last 30 images provided by the National Aeronautics and 
+               Space Administration of the United States (NASA) via its api service.
+               
+               Everyday a new pictured
+                is added to the collection.
+                The APOD app has been built with React and Redux / Redux Toolkit. This is an individual
+                academic project that can be used for educational or recreational purposes"
+              ghLink="https://github.com/DarioAlessioR/capstone-apod/tree/main"
+              demoLink="https://tranquil-fudge-35218d.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={space}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Space Travelers' Hub"
+              description="The Space Travelers' Hub consists of Rockets, Missions, and the My
+               Profile section.
+
+              It let users to book fictional rockets trips and space missions.
+              The Rockets section displays a list of all available SpaceX rockets. 
+              
+              
+              The Missions section displays a list of current missions along with their
+               brief description. 
+              
+              The My Profile section displays all booked items.
+              
+              Built with React / Redux Toolkit as an academic project by a group of 2 students."
+              ghLink="https://github.com/DarioAlessioR/space-travel"
+              demoLink="https://joyful-kitsune-4f643f.netlify.app/"              
             />
           </Col>
 
