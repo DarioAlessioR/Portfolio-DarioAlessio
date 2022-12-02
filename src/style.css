@@ -14,6 +14,11 @@ html {
   --imp-text-color: #c770f0;
 }
 
+.img-fluid {
+  width: 50%;
+  opacity: 1;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -340,7 +345,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 
 .home-about-social {

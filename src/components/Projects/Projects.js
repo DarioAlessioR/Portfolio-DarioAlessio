@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bookstore from "../../Assets/Projects/bookstore.png";
+import gastronomy from "../../Assets/Projects/gastronomy.png";
+import space from "../../Assets/Projects/space.png";
+import homesharing from "../../Assets/Projects/homesharing.png";
+import math from "../../Assets/Projects/math.png";
+import apod from "../../Assets/Projects/apod.png";
 
 function Projects() {
   return (
@@ -18,73 +18,113 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={homesharing}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Home Sharing App"
+              description="The Home Sharing App is a fully responsive app that provides the service
+               for connecting homeowners wanting to rent their properties and potential clients,
+                enabling the creation of reservations for periods of time on selected properties.
+              
+              The app was built with a Ruby on Rails backend and a React/Redux frontend,
+               located on separate repositories.
+               
+               This is an academic project built by a team of 4 students."
+              ghLink="https://github.com/Home-Sharing-Team/final-capstone-Project-Back-End/tree/readme"
+              demoLink="https://home-sharing.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={apod}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Astronomical Picture of the Day"
+              description="The Astronomical Picture of the Day (APOD) app shows a collection
+               of the last 30 images provided by the National Aeronautics and 
+               Space Administration of the United States (NASA) via its api service.
+               
+               Everyday a new pictured
+                is added to the collection.
+                The APOD app has been built with React and Redux / Redux Toolkit. This is an individual
+                academic project that can be used for educational or recreational purposes"
+              ghLink="https://github.com/DarioAlessioR/capstone-apod/tree/main"
+              demoLink="https://tranquil-fudge-35218d.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={space}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Space Travelers' Hub"
+              description="The Space Travelers' Hub consists of Rockets, Missions, and the My
+               Profile section.
+
+              It let users to book fictional rockets trips and space missions.
+              The Rockets section displays a list of all available SpaceX rockets. 
+              
+              
+              The Missions section displays a list of current missions along with their
+               brief description. 
+              
+              The My Profile section displays all booked items.
+              
+              Built with React / Redux Toolkit as an academic project by a group of 2 students."
+              ghLink="https://github.com/DarioAlessioR/space-travel"
+              demoLink="https://joyful-kitsune-4f643f.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bookstore}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Bookstore CMS"
+              description="The Bookstore CMS app is a website that allows you to:
+
+              Display a list of books, add a book, and remove a selected book.
+
+              It consumes an api service to store the users's books information.
+              
+              Built with React and Redux as an individual academic project."
+              ghLink="https://github.com/DarioAlessioR/bookstore1/tree/dev"
+              demoLink="https://effervescent-dodol-706742.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={math}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Math Magicians"
+              description="'Math magicians' is a website for all fans of mathematics.
+               It allows users to
+               do simple arithmetics calculations. There's also a section to read a nice quote
+               from Galileo Galilei.
+               It is a Single Page App (SPA)
+                Built with React as an individual academic project."
+              ghLink="https://github.com/DarioAlessioR/math-magic"
+              demoLink="https://benevolent-tanuki-9d1893.netlify.app/Calculator"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={gastronomy}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="House Speciality"
+              description="House Speciality is a web application based on an external API
+               that provides data about food. 
+               Users can comment and give likes to different dishes. These interactions are
+               saved in an external API. The app was built with JavaScript as an
+                 individual academic project."
+              ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
+              demoLink="https://maury18.github.io/JavaScript-Capstone/dist/"
             />
           </Col>
         </Row>
