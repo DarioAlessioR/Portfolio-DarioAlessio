@@ -8,12 +8,13 @@ function Type() {
         strings: [
           "Full Stack Developer",
           "Back-End Engineer",
-          "UX designer",
-          "Open Source Contributor",
+          "Product Manager",
+          "Mechanical Engineer",
+          "MBA",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 20,
       }}
     />
   );

@@ -34,21 +34,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiRuby />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+  {/*    <Col xs={4} md={2} className="tech-icons">
         <SiAdobeaftereffects />
-      </Col>
+      </Col>  */}
       <Col xs={4} md={2} className="tech-icons">
         <DiDatabase />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+   {/*   <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
-      </Col>
+      </Col>   */}
       <Col xs={4} md={2} className="tech-icons">
         <DiRubyRough />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+   {/*   <Col xs={4} md={2} className="tech-icons">
         <SiAdobeillustrator />
-      </Col>
+  </Col>  */}
     </Row>
   );
 }
