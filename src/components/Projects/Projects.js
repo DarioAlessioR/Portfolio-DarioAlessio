@@ -109,7 +109,7 @@ function Projects() {
                It is a Single Page App (SPA)
                 Built with React as an individual academic project."
               ghLink="https://github.com/DarioAlessioR/math-magic"
-              demoLink="https://benevolent-tanuki-9d1893.netlify.app/Calculator"
+              demoLink="https://benevolent-tanuki-9d1893.netlify.app/"
             />
           </Col>
 
