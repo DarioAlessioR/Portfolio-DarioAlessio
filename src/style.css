@@ -12,6 +12,34 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --scrollbar: rgba(178, 121, 216, 0.959);
+  --scrollbar-hover: rgba(222, 130, 235, 0.911);
+  --navbar-toggler: #be50f4;
+  --brand-name: #be50f4;
+  --nav-item: #c95bf5;
+  --main-name: #cd5ff8;
+  --Typewriter__wrapper: #be6adf;
+  --Typewriter__cursor: #b562d6;
+  --home-social-icons: #68187a;
+  --home-social-icons-hover-before: #801f95;
+  --home-social-icons-hover: #87209e;
+  --home-social-icons-hover-box-shadow: #87209e;
+  --home-social-icons-hover-text-shadow: #87209e;
+  --icon-colour: #700c86;
+  --blockquote-footer: #a588c0;
+  --blog-card-view: rgba(145, 77, 161, 0.459);
+  --blog-card-view-hover: rgba(155, 88, 173, 0.65);
+  --btn-primary: #623686;
+  --btn-primary-hover: #6d20c5d7;
+  --tech-icons: rgba(200, 137, 230, 0.637);
+  --tech-icons-hover: rgba(197, 115, 230, 0.883);
+  --resume: #8a49a8;
+  --resume-title: #5234795d;
+  --resume-item-before: #8a49a8;
+  --like-btn: #934cce5e;
+  --like-btn-hover: #a24dd386;
+  --fork-btn-inner: #934cce5e;
+  --fork-btn-inner-hover: #a24dd386
 }
 
 .img-fluid {
