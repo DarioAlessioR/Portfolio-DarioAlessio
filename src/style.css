@@ -733,8 +733,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: var(--like-btn) !important;
+  border-color: var(--like-btn) !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -743,8 +743,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: var(--like-btn-hover) !important;
+  border-color: var(--like-btn-hover) !important;
 }
 
 .animate-like {
@@ -768,7 +768,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: var(--fork-btn-inner) !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -776,8 +776,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: var(--fork-btn-inner-hover) !important;
+  border-color: var(--fork-btn-inner-hover) !important;
 }
 .fork-btn-inner::after {
   display: none !important;
