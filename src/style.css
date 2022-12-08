@@ -11,35 +11,35 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
-  --scrollbar: rgba(178, 121, 216, 0.959);
-  --scrollbar-hover: rgba(222, 130, 235, 0.911);
-  --navbar-toggler: #be50f4;
-  --brand-name: #be50f4;
-  --nav-item: #c95bf5;
-  --main-name: #cd5ff8;
-  --Typewriter__wrapper: #be6adf;
-  --Typewriter__cursor: #b562d6;
-  --home-social-icons: #68187a;
-  --home-social-icons-hover-before: #801f95;
-  --home-social-icons-hover: #87209e;
-  --icon-colour: #700c86;
-  --blockquote-footer: #a588c0;
-  --project-card-view: rgba(119, 53, 136, 0.459);
-  --project-card-view-hover: rgba(129, 72, 144, 0.561);
-  --blog-card-view: rgba(145, 77, 161, 0.459);
-  --blog-card-view-hover: rgba(155, 88, 173, 0.65);
-  --btn-primary: #623686;
-  --btn-primary-hover: #6d20c5d7;
-  --tech-icons: rgba(200, 137, 230, 0.637);
-  --tech-icons-hover: rgba(197, 115, 230, 0.883);
-  --resume: #8a49a8;
-  --resume-title: #5234795d;
-  --resume-item-before: #8a49a8;
-  --like-btn: #934cce5e;
-  --like-btn-hover: #a24dd386;
-  --fork-btn-inner: #934cce5e;
-  --fork-btn-inner-hover: #a24dd386
+  --imp-text-color: #70a7f0;
+  --scrollbar: rgba(121, 154, 216, 0.959);
+  --scrollbar-hover: rgba(130, 214, 235, 0.911);
+  --navbar-toggler: #70a7f0;
+  --brand-name: #70a7f0;;
+  --nav-item: #725bf5;
+  --main-name: #70a7f0;
+  --Typewriter__wrapper: #70a7f0;
+  --Typewriter__cursor: #70a7f0;
+  --home-social-icons: #27187a;
+  --home-social-icons-hover-before: #1f5c95;
+  --home-social-icons-hover: #20969e;
+  --icon-colour: #180c86;
+  --blockquote-footer: #8e88c0;
+  --project-card-view: rgba(59, 53, 136, 0.459);
+  --project-card-view-hover: rgba(72, 103, 144, 0.561);
+  --blog-card-view: rgba(77, 83, 161, 0.459);
+  --blog-card-view-hover: rgba(88, 139, 173, 0.65);
+  --btn-primary: #4c89ce5e;
+  --btn-primary-hover: #494fa8;
+  --tech-icons: rgba(143, 137, 230, 0.637);
+  --tech-icons-hover: rgba(115, 194, 230, 0.883);
+  --resume: #5749a8;
+  --resume-title: #343e795d;
+  --resume-item-before: #494fa8;
+  --like-btn: #5749a8;
+  --like-btn-hover: #5749a8;
+  --fork-btn-inner: #4c89ce5e;
+  --fork-btn-inner-hover: #494fa8;
 }
 
 .img-fluid {
