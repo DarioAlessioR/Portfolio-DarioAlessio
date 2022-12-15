@@ -186,6 +186,10 @@ button:focus {
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+
+  .git {
+    margin-bottom: 120px;
+  }
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
