@@ -488,6 +488,10 @@ button:focus {
   padding: 0 !important;
 }
 
+.footer-icons li a {
+  text-decoration: none !important;
+}
+
 .blockquote-footer {
   color: var(--blockquote-footer) !important;
 }
