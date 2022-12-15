@@ -173,6 +173,10 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+.git {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
