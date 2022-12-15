@@ -6,15 +6,15 @@ import {
   DiScrum,
 } from "react-icons/di";
 import {
-//  SiLinux,
   SiVisualstudiocode,
-  SiPostman,
   SiHeroku,
   SiSwagger,
   SiFigma,
   SiNetlify,
-//  SiAdobe,
 } from "react-icons/si";
+import {
+    BsKanban
+  } from "react-icons/bs";
 
 function Toolstack() {
   return (
@@ -42,6 +42,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSwagger /> <span>Swagger</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsKanban /> <span>Kanban</span>
       </Col>
     </Row>
   );
