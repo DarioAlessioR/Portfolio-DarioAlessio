@@ -605,6 +605,10 @@ button:focus {
   color: white !important;
 }
 
+.about-activity span {
+  color : var(--main-name) !important;
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

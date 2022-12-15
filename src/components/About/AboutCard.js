@@ -11,10 +11,10 @@ function AboutCard() {
             Hi. I'm <span className="purple">Dario Alessio, </span>
             from <span className="purple"> Caracas, Venezuela.</span>
             <br /><br />
-            I'm a software developer with a lot of experience working as a
-           product manager in the financial industry.<br /><br />
-           While doing so, I've used scrum methodology and worked with multidisciplinary teams
-            to develop real life financial products, always under time and budget constraints.<br /> <br />
+            I'm a Software Developer with a lot of experience working as a
+           Product Manager in the finance industry.<br /><br />
+           I'm used to working under the Scrum methodology with multidisciplinary teams
+            to develop real-life financial products, always under time and budget constraints.<br /> <br />
            Yes, I've been "the client" many times and I know how it feels to be on the other 
            side of the table.<br /><br />
            I'm also a Mechanical Engineer and have an MBA, which helps me to understand both
@@ -26,13 +26,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Read history and science books
+              <span><ImPointRight /></span><span>&nbsp;&nbsp;&nbsp;</span> Read history and science books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play tennis with my team (double)
+            <span><ImPointRight /></span><span>&nbsp;&nbsp;&nbsp;</span> Play tennis with my team (double)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play the guitar and sing with friends
+            <span><ImPointRight /></span><span>&nbsp;&nbsp;&nbsp;</span> Play the guitar and sing with friends
             </li>
           </ul>
 
