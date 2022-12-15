@@ -5,6 +5,7 @@ import {
  // AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineSlack } from "react-icons/ai";
 
 function Footer() {
   let date = new Date();
@@ -30,16 +31,16 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-        {/*    <li className="social-icons">
+        {    <li className="social-icons">
               <a
-                href="https://twitter.com/UnyieldingOne"
+                href="https://microverse-students.slack.com/team/U039GCFRK9B"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiOutlineSlack />
               </a>
-  </li>  */}
+  </li>  }
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/dario-alessio/?locale=en_US"
