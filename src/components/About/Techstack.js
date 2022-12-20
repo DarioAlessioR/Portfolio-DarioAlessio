@@ -6,9 +6,11 @@ import {
   DiReact,
   DiSass,
   DiRuby,
-  DiRubyRough,
-  DiDatabase,
+//  DiRubyRough,
   DiPostgresql,
+  DiHtml5,
+  DiRor,
+  DiCss3,
 } from "react-icons/di";
 //import {
 //  SiAdobeillustrator,
@@ -20,32 +22,32 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiRor /> <span>Ruby on Rails</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiRuby /> <span>Ruby</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiSass />
+        <DiJavascript1 /> <span>JavaScript</span>     
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact /> <span>React</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiRuby />
+        <DiHtml5 /> <span>HTML</span>
       </Col>
-  {/*    <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeaftereffects />
-      </Col>  */}
+  {    <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 /> <span>CSS</span>
+      </Col>  }
       <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase />
+        <DiSass /> <span>Sass</span>
       </Col>
-   {/*   <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>   */}
-      <Col xs={4} md={2} className="tech-icons">
+   {   <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql /> <span>PostgreSQL</span>
+      </Col>   }
+     { /*  <Col xs={4} md={2} className="tech-icons">
         <DiRubyRough />
-      </Col>
+      </Col> */}
    {/*   <Col xs={4} md={2} className="tech-icons">
         <SiAdobeillustrator />
   </Col>  */}

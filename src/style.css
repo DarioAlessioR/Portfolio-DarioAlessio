@@ -173,6 +173,10 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+.git {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -181,6 +185,10 @@ button:focus {
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
+  }
+
+  .git {
+    margin-bottom: 120px;
   }
 }
 .navbar-brand {
@@ -480,6 +488,10 @@ button:focus {
   padding: 0 !important;
 }
 
+.footer-icons li a {
+  text-decoration: none !important;
+}
+
 .blockquote-footer {
   color: var(--blockquote-footer) !important;
 }
@@ -581,6 +593,12 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.stack {
+  color: var(--imp-text-color) !important;
+  font-size: 1.1em !important;
+  font-weight: 800 !important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -593,8 +611,14 @@ button:focus {
   color: white !important;
 }
 
+.about-activity span {
+  color : var(--main-name) !important;
+}
+
 .tech-icons {
-  font-size: 4.5em !important;
+  display: flex !important;
+  flex-direction: column !important;
+  font-size: 3.5em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -602,10 +626,14 @@ button:focus {
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons span {
+  font-size: 0.3em !important;
 }
 
 @media (max-width: 767px) {
