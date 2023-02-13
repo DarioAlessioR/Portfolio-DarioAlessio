@@ -124,7 +124,7 @@ function Projects() {
                saved in an external API. The app was built with <span className="stack">JavaScript</span> as a
                  group academic project.</p>
               ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
-              demoLink="https://house-speciality.netlify.app/"
+              demoLink="https://plancha1crc.netlify.app/"
             />
           </Col>
 
