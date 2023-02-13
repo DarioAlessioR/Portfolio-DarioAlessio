@@ -8,6 +8,7 @@ import space from "../../Assets/Projects/space.png";
 import homesharing from "../../Assets/Projects/homesharing.png";
 import math from "../../Assets/Projects/math.png";
 import apod from "../../Assets/Projects/apod.png";
+import plancha1crc from "../../Assets/Projects/plancha1crc.jpg";
 
 function Projects() {
   return (
@@ -115,7 +116,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gastronomy}
+              imgPath={plancha1crc}
               isBlog={false}
               title="House Speciality"
               description=<p>House Speciality is a web application based on an external API
