@@ -118,12 +118,12 @@ function Projects() {
             <ProjectCard
               imgPath={plancha1crc}
               isBlog={false}
-              title="House Speciality"
-              description=<p>House Speciality is a web application based on an external API
-               that provides data about food. 
-               Users can comment and give likes to different dishes. These interactions are
-               saved in an external API. The app was built with <span className="stack">JavaScript</span> as a
-                 group academic project.</p>
+              title="Plancha 1 CRC"
+              description=<p>Plancha 1 CRC is a landing page web application created to promote
+               the candidacy of a group of club shareholders running for the Board of Directors election. The club is 
+               Caracas Racquet Club (CRC), located in Venezuela, and the election was held in February 2023.
+               The app was built with <span className="stack">HTML, CSS, and JavaScript</span> as an individual
+               project.</p>
               ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
               demoLink="https://plancha1crc.netlify.app/"
             />
