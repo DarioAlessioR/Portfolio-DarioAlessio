@@ -127,6 +127,21 @@ function Projects() {
               demoLink="https://house-speciality.netlify.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gastronomy}
+              isBlog={false}
+              title="House Speciality"
+              description=<p>House Speciality is a web application based on an external API
+               that provides data about food. 
+               Users can comment and give likes to different dishes. These interactions are
+               saved in an external API. The app was built with <span className="stack">JavaScript</span> as a
+                 group academic project.</p>
+              ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
+              demoLink="https://house-speciality.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
