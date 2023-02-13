@@ -8,6 +8,7 @@ import space from "../../Assets/Projects/space.png";
 import homesharing from "../../Assets/Projects/homesharing.png";
 import math from "../../Assets/Projects/math.png";
 import apod from "../../Assets/Projects/apod.png";
+import plancha1crc from "../../Assets/Projects/plancha1crc.jpg";
 
 function Projects() {
   return (
@@ -110,6 +111,21 @@ function Projects() {
                 Built with <span className="stack">React</span> as an individual academic project.</p>
               ghLink="https://github.com/DarioAlessioR/math-magic"
               demoLink="https://benevolent-tanuki-9d1893.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={plancha1crc}
+              isBlog={false}
+              title="Plancha 1 CRC"
+              description=<p>Plancha 1 CRC is a landing page web application created to promote
+               the candidacy of a group of club shareholders running for the Board of Directors election. The club is 
+               Caracas Racquet Club (CRC), located in Venezuela, and the election was held in February 2023.
+               The app was built with <span className="stack">HTML, CSS, and JavaScript</span> as an individual
+               project.</p>
+              ghLink="https://github.com/DarioAlessioR/Plancha1CRC"
+              demoLink="https://plancha1crc.netlify.app/"
             />
           </Col>
 
