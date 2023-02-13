@@ -124,7 +124,7 @@ function Projects() {
                Caracas Racquet Club (CRC), located in Venezuela, and the election was held in February 2023.
                The app was built with <span className="stack">HTML, CSS, and JavaScript</span> as an individual
                project.</p>
-              ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
+              ghLink="https://github.com/DarioAlessioR/Plancha1CRC"
               demoLink="https://plancha1crc.netlify.app/"
             />
           </Col>
