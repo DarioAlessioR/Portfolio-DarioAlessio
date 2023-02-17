@@ -151,7 +151,7 @@ function Projects() {
               isBlog={false}
               title="New Bands Festival 2022"
               description=<p>New Bands Festival 2022 is a web application to promote a fictitious rock festival. 
-               Users can read information of bands and concerts. According to the project specifications, no interactions
+               Users can read information about bands and concerts. According to the project specifications, no interactions
                 are implemented, apart from the navigation menu and the About page.
                The app was built with <span className="stack">HTML</span>,
                <span className="stack"> CSS</span>, and <span className="stack">JavaScript</span> as an
