@@ -9,6 +9,7 @@ import homesharing from "../../Assets/Projects/homesharing.png";
 import math from "../../Assets/Projects/math.png";
 import apod from "../../Assets/Projects/apod.png";
 import plancha1crc from "../../Assets/Projects/plancha1crc.jpg";
+import rock from "../../Assets/Projects/rock.png";
 
 function Projects() {
   return (
@@ -141,6 +142,22 @@ function Projects() {
                  group academic project.</p>
               ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
               demoLink="https://house-speciality.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rock}
+              isBlog={false}
+              title="New Bands Festival 2022"
+              description=<p>New Bands Festival 2022 is a web application to promote a fictitious rock festival. 
+               Users can read information of bands and concerts. According to the project specifications, no interactions
+                are implemented, apart from the navigation menu and the About page.
+               The app was built with <span className="stack">HTML</span>,
+               <span className="stack">CSS</span>, and <span className="stack">JavaScript</span> as an
+                 individual academic project.</p>
+              ghLink="https://github.com/DarioAlessioR/my-capstone"
+              demoLink="https://darioalessior.github.io/my-capstone/"
             />
           </Col>
         </Row>
