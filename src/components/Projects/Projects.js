@@ -140,7 +140,7 @@ function Projects() {
                Users can comment and give likes to different dishes. These interactions are
                saved in an external API. The app was built with <span className="stack">HTML</span>,
                <span className="stack"> CSS</span>, and
-                <span className="stack">JavaScript</span> as a
+                <span className="stack"> JavaScript</span> as a
                  group academic project.</p>
               ghLink="https://github.com/DarioAlessioR/JS-Capstone/tree/dev"
               demoLink="https://house-speciality.netlify.app/"
