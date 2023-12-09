@@ -5,7 +5,9 @@ import Particle from "../Particle";
 import bookstore from "../../Assets/Projects/bookstore.png";
 import gastronomy from "../../Assets/Projects/gastronomy.png";
 import space from "../../Assets/Projects/space.png";
+/*
 import homesharing from "../../Assets/Projects/homesharing.png";
+*/
 import math from "../../Assets/Projects/math.png";
 import apod from "../../Assets/Projects/apod.png";
 import plancha1crc from "../../Assets/Projects/plancha1crc.jpg";
@@ -23,6 +25,7 @@ function Projects() {
           Here are a few projects I've recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+  {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={homesharing}
@@ -40,7 +43,7 @@ function Projects() {
               demoLink="https://home-sharing.netlify.app/"
             />
           </Col>
-
+  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={apod}
