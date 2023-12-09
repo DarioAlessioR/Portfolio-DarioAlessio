@@ -23,6 +23,7 @@ function Projects() {
           Here are a few projects I've recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+  {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={homesharing}
@@ -40,7 +41,7 @@ function Projects() {
               demoLink="https://home-sharing.netlify.app/"
             />
           </Col>
-
+  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={apod}
