@@ -9,14 +9,18 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink = pdf;
-  //"https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";//
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
 
   return (
     <div>
@@ -34,15 +38,25 @@ function ResumeNew() {
           </Button>
         </Row>
 
-
-
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document
+            file={resumeLink}
+            className="d-flex justify-content-center"
+            onLoadSuccess={onDocumentLoadSuccess}
+          >
+            {Array.from(new Array(numPages), (el, index) => (
+              <Page
+                key={`page_${index + 1}`}
+                pageNumber={index + 1}
+                scale={1}
+              />
+            ))}
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative", margin: 40}}>
+        <Row
+          style={{ justifyContent: "center", position: "relative", margin: 40 }}
+        >
           <Button
             variant="primary"
             href={pdf}
@@ -53,7 +67,6 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-
       </Container>
     </div>
   );
