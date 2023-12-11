@@ -43,7 +43,7 @@ function Footer() {
   </li>  }
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/dario-alessio/?locale=en_US"
+                href="https://www.linkedin.com/in/dario-alessio/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
