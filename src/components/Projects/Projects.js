@@ -56,7 +56,7 @@ function Projects() {
                Everyday a new pictured
                 is added to the collection.
                 The APOD app has been built with <span className="stack">React and Redux / Redux Toolkit.</span> This is an individual
-                academic project that can be used for educational or recreational purposes.</p>
+                academic project that can be used for free for educational or recreational purposes.</p>
               ghLink="https://github.com/DarioAlessioR/capstone-apod/tree/main"
               demoLink="https://tranquil-fudge-35218d.netlify.app/"
             />
