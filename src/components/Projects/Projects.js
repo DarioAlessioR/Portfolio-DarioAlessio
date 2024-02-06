@@ -123,7 +123,7 @@ function Projects() {
               imgPath={plancha1crc}
               isBlog={false}
               title="Plancha 1 CRC"
-              description=<p>Plancha 1 CRC is a landing page web application created to promote
+              description=<p>Plancha 1 CRC is a responsive landing page web application created to promote
                the candidacy of a group of club shareholders running for the Board of Directors election. The club is 
                Caracas Racquet Club (CRC), located in Venezuela, and the election was held in February 2023.
                The app was built with <span className="stack">HTML, CSS, and JavaScript</span> as an individual
