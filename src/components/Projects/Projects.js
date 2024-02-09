@@ -138,8 +138,8 @@ function Projects() {
               imgPath={gastronomy}
               isBlog={false}
               title="House Speciality"
-              description=<p>House Speciality is a web application based on an external API
-               that provides data about food. 
+              description=<p>House Speciality is a web application based on 2 external APIs, one
+               that provides data about food, one to save user's interactions. 
                Users can comment and give likes to different dishes. These interactions are
                saved in an external API. The app is built with <span className="stack">HTML</span>,
                <span className="stack"> CSS</span>, and
